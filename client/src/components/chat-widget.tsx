@@ -2,10 +2,10 @@ import { useEffect } from "react";
 import { useQuery } from "@tanstack/react-query";
 
 const WIDGET_SCRIPT_ID = "marcin-chat-widget-script";
-const WIDGET_SRC = "https://parish-chat.replit.app/api/widget.js";
+const WIDGET_SRC = "https://workspaceapi-server-production-5023.up.railway.app/marcin/api/widget.js";
 const WIDGET_PARISH = "1";
 const WIDGET_KEY = "f8278e1351c3832b280b3c483a9c21277e012ed0dcdcc6fea140935146d00f67";
-const WIDGET_API = "https://parish-chat.replit.app";
+const WIDGET_API = "https://workspaceapi-server-production-5023.up.railway.app/marcin";
 
 async function apiFetch(url: string) {
   const res = await fetch(url, { credentials: "include" });
